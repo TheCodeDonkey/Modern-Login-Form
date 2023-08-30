@@ -1,0 +1,146 @@
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.parent-link {
+    font-size: 1rem;
+}
+
+.parent-link, .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 42px;
+}
+
+.logo:hover {
+    opacity: 0.7;
+}
+
+.social-links {
+    padding: 0 2.5rem;
+    margin: 0;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.social-links:hover {
+    opacity: 0.8;
+}
+
+.sm-icon {
+    padding: 0 1rem;
+    margin: 0;
+    color: white;
+}
+
+.sm-icon:hover{
+    opacity: 0.8;
+}
+
+nav {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-image: linear-gradient(45deg, #21D4FD 0%, #B721FF 100%);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.sub-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    height: 70vh;
+    border-radius: 12px;
+    box-shadow: rgba(50, 50, 93, 0,25) 0px 13px 27px -5px,
+     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+     background-color: white;
+}
+
+h2 {
+    margin: 1.5rem 0 2rem 0;
+    text-align: center;
+}
+
+label {
+    padding-left: 16px;
+    opacity: 0.75;
+}
+
+input {
+    display: flex;
+    border-radius: 50px;
+    border-style: none;
+    outline: none;
+    margin-top: 8px;
+    padding: 12px 24px;
+    width: 250px;
+    background-color: #EAEEED;
+}
+
+input:focus {
+    opacity: 0.7;
+}
+
+button {
+    padding: 12px 48px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 1rem;
+    cursor: pointer;
+    outline: none;
+    border-width: 0;
+    background-color: #1A1B27;
+    font-weight: 600;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.bottom-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.signup {
+    padding-left: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #21D4FD;
+}
+
+.signup:hover {
+    opacity: 0.8;
+}
